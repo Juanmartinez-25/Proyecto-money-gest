@@ -46,7 +46,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30xpx;
+    margin-top: 30px;
 }
 
 .logo {
@@ -135,4 +135,49 @@ body {
 
 .botonSiguiente:hover {
     background-color: darkblue;
+}
+
+
+
+@media (max-width: 600px) {
+    .contenedorInicioSesion {
+        width: 95%; /* Ajustado para pantallas más pequeñas */
+        padding: 20px;
+    }
+
+    .logoParrafo {
+        font-size: 1.4rem;
+    }
+
+    .titleInicio {
+        font-size: 1rem;
+    }
+
+    .textoUsuario, .textoContrasena {
+        font-size: 0.8rem;
+    }
+
+    .botonUsuario, .botonContrasena, .botonSiguiente {
+        font-size: 0.8rem;
+        height: 38px;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo {
+        width: 70px;
+    }
+
+    .logoParrafo {
+        font-size: 1.2rem;
+    }
+
+    .contenedorInicioSesion {
+        padding: 15px;
+    }
+
+    .botonUsuario, .botonContrasena, .botonSiguiente {
+        font-size: 0.7rem;
+        height: 35px;
+    }
 }

@@ -13,7 +13,6 @@
     --fuente-lemon: 'Lemon', serif;
     --fuente-aleo: 'Aleo', serif;
 }
-
 body {
     background-color: var(--color-primario);
     display: flex;
@@ -21,7 +20,6 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-repeat: no-repeat;
 }
 
 .contenedorMain {

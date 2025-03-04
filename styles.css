@@ -44,9 +44,9 @@ body {
 
 .containerLogo {
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 30px;
+    margin-left: 15%;
+    
 }
 
 .logo {
@@ -58,18 +58,30 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; 
-    text-align: center;
+    text-align: justify;
+    margin-top: -25%;
+    
 }
 
-.logoParrafo {
+.logoParrafoMerca{
     font-family: var(--fuente-lemon);
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--color-primario);
-    text-align: center;
+    text-align: justify;
+    margin-left: 30%;
  
 }
 
+.logoParrafoPlasticos{
+    font-family: var(--fuente-lemon);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-primario);
+    text-align: justify;
+    margin-left: 40%;
+ 
+}
 .containerTitleInicio {
     text-align: center;
     margin-bottom: 15px;

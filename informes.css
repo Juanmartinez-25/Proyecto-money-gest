@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Sigmar&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primario: #3674B5;
+    --color-secundario: #A1E3F9;
+    --color-terciario: #000000;
+    --color-cuaternario: #D3F8F0;
+}
+
+body{
+    background-color: var(--color-secundario);
+    margin: 0;
+}
+.container-Header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}  
+
+.Imagen-Home{
+    width: 130px;
+    height: 130px;
+    display: grid;
+    margin-top: 0px;
+}
+
+.Titulo-Informes{
+    color:var(--color-terciario);
+    background-color:var(--color-cuaternario) ;
+    width: 900px;
+    height: 130px;
+    text-align:center;
+    font-size: 48px;
+    border-radius: 49px;
+    font-family: "Abhaya Libre", serif;
+    align-self: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.Imagen-Informes{
+    width:130px;
+    height: 130px;
+    margin-right:15px;
+}
+
+.inicio{
+    color:var(--color-terciario);
+    margin-left: 45px;
+    font-size: 20px;
+    margin-top: -20px;
+    width:10px;
+}
+
+.Texto-Intstrucciones{
+    color:#f5f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primario);
+    width: 100%;
+    height: 60px;
+    margin-top:20px ;
+
+}
+
+.container-Calendarios{
+    display: grid;
+    margin: 100px;
+    justify-content: center;
+    align-items:center;
+}
+.Calendario-Desde{
+    background-color: var(--color-cuaternario);
+    width: 900px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 30px;
+    border-radius: 49px;
+}
+
+.Calendario-Hasta{
+    margin-top: 90px;
+    background-color: var(--color-cuaternario);
+    width: 900px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 30px;
+    border-radius: 49px;
+}
+.Frase_desde{
+    color: var(--color-terciario);
+    font-size: 35px;
+}
+
+.Calendario_Desde{
+    width: 300x;
+    height: 45px;
+    font-size:30px ;
+}
+
+
+.Frase_Hasta{
+    color: var(--color-terciario);
+    font-size: 35px;
+}
+
+.Calendario_Hasta{
+    width: 300x;
+    height: 45px;
+    font-size:30px ;
+}
+.botton{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.Botton_enviar{
+    border-color: var(--color-primario);
+    background-color: var(--color-primario);
+    color: #f5f5f5f5;
+    width: 272px;
+    height: 74px;
+    border-radius: 13px;
+    font-size: 36px;
+    margin-top: -10px;
+}

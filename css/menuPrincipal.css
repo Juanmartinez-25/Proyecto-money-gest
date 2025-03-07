@@ -15,6 +15,13 @@
 }
 
 
+contenedorHeader {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+}	
 
 .containerLogo {
     display: flex;

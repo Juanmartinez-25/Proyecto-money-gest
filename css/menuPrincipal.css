@@ -26,8 +26,13 @@ body {
 .containerHeader {
     display: flex;
     align-items: center;
-    width: 100%;
     flex-wrap: wrap;
+    background-color: var(--color-primario);
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .containerLogo {

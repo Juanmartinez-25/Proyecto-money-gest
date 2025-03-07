@@ -27,7 +27,7 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    background-color: var(--color-primario);
+    background-color: var(--color-secundario);
     width: 100%;
     padding: 10px 20px;
     display: flex;

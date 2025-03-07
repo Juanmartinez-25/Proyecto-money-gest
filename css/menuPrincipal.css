@@ -50,7 +50,7 @@
     font-weight: 600;
     color: var(--color-primario);
     text-align: justify;
-    margin-left: 30%;
+   
  
 }
 
@@ -62,4 +62,10 @@
     text-align: justify;
     margin-left: 40%;
  
+}
+
+.containerCasaCerrar{
+    display: flex;
+    flex-direction: row;
+    margin-
 }

@@ -23,13 +23,12 @@ body {
     margin: 0;
 }
 
-.contenedorHeader {
+.containerHeader {
     display: flex;
-
-    padding: 10px 20px;
-    background-color: var(--color-secundario);
-    color: var(--color-primario);
-}	
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
 
 .containerLogo {
     display: flex;

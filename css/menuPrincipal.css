@@ -73,21 +73,4 @@ body {
     display: flex;
 }
 
-/* CONTENEDORES DE SECCIONES */
-.containerGestionVentas,
-.containerIngresoCapital,
-.containerInformes,
-.containerAdministracion,
-.containerGestionGastos {
-    display: flex;
-    text-align: center;
-}
 
-/* IMÁGENES */
-.imgAdministracion,
-.imgInformes,
-.imgGestionGastos,
-.imgGestionVentas,
-.imgIngresoCapital {
-    height: 50%;
-}

@@ -23,17 +23,6 @@ body {
     align-items: center;
 }
 
-/* HEADER */
-.containerHeader {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: var(--color-secundario);
-    width: 100%;
-    padding: 10px 20px;
-    justify-content: space-between;
-}
-
 .containerLogo {
     display: flex;
     margin-top: 30px;

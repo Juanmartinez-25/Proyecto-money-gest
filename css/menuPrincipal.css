@@ -17,8 +17,7 @@
 body {
     background-color: var(--color-primario);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     height: 100vh;
     margin: 0;
 }

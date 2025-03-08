@@ -28,7 +28,7 @@ body {
     flex-wrap: wrap;
     background-color: var(--color-secundario);
     width: 100%;
-    padding: 1000px 100px;
+    padding: 10px 20px;
     justify-content: space-between;
 }
 

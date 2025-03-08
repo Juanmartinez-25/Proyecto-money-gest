@@ -91,7 +91,7 @@ body {
 .imgGestionGastos,
 .imgGestionVentas,
 .imgIngresoCapital {
-    width: 50px;
+    width: 1px;
     height: auto;
     object-fit: contain;
 }

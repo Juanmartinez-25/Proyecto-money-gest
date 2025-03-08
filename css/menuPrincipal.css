@@ -71,7 +71,6 @@ body {
 /* MENÚ PÁGINAS PRINCIPALES */
 .menuPaginasPrincipales {
     display: flex;
-    flex-direction: column;
 }
 
 /* CONTENEDORES DE SECCIONES */

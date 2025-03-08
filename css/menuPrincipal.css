@@ -63,9 +63,6 @@ body {
 /* SECCIÓN PRINCIPAL */
 .contenedorMain {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-color: var(--color-primario);
     border-radius: 100px 100px 0 0;
 

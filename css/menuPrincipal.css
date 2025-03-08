@@ -14,14 +14,7 @@
     --fuente-aleo: 'Aleo', serif;
 }
 
-body {
-    height: 100vh;
-    background-color: var(--color-secundario);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 
 /* HEADER */
 .containerHeader {

@@ -79,3 +79,8 @@ body {
     display: flex;
     flex-direction: row;
 }
+
+.contenedorMain{
+    display: flex;
+
+}

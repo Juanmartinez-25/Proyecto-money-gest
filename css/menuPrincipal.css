@@ -71,7 +71,6 @@ body {
     background-color: var(--color-primario);
     border-radius: 100px 100px 0 0;
     height: 500px;
-  
     width: 100%;
 }
 
@@ -88,8 +87,6 @@ body {
 .containerAdministracion,
 .containerGestionGastos {
     display: flex;
-
-    flex-wrap: wrap;
     max-width: 80%;
     margin: 20px auto;
 }
@@ -100,7 +97,7 @@ body {
 .imgGestionGastos,
 .imgGestionVentas,
 .imgIngresoCapital {
-    width: 80px;
+    width: 50px;
     height: auto;
     object-fit: contain;
 }

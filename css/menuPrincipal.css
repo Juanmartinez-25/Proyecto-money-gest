@@ -15,12 +15,13 @@
 }
 
 body {
-    padding:0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     margin: 0;
 }
 
+/* HEADER */
 .containerHeader {
     display: flex;
     align-items: center;
@@ -28,16 +29,13 @@ body {
     background-color: var(--color-secundario);
     width: 100%;
     padding: 10px 100px;
-    display: flex;
     justify-content: space-between;
-
 }
 
 .containerLogo {
     display: flex;
     margin-top: 30px;
     margin-left: 15%;
-    
 }
 
 .logo {
@@ -45,40 +43,25 @@ body {
     height: auto;
 }
 
+/* TEXTO LOGO */
 .containerParrafo {
     display: flex;
     flex-direction: column;
     align-items: center; 
-    text-align: justify;
-    
+    text-align: center;
 }
 
-.logoParrafoMerca{
+.logoParrafoMerca,
+.logoParrafoPlasticos {
     font-family: var(--fuente-lemon);
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--color-primario);
-    text-align: justify;
-   
- 
+    text-align: center;
 }
 
-.logoParrafoPlasticos{
-    font-family: var(--fuente-lemon);
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--color-primario);
-    text-align: justify;
-    
- 
-}
-
-.containerCasaCerrar{
-    display: flex;
-    flex-direction: row;
-}
-
-.contenedorMain{
+/* SECCIÓN PRINCIPAL */
+.contenedorMain {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,41 +71,36 @@ body {
     background-color: var(--color-primario);
     border-radius: 100px 100px 0 0;
     padding: 60px;
-
 }
 
-.menuPaginasPrincipales{
+/* MENÚ PÁGINAS PRINCIPALES */
+.menuPaginasPrincipales {
     display: flex;
     flex-direction: column;
 }
 
-
-.containerGetionVentas,.containerIngresoCapital{
+/* CONTENEDORES DE SECCIONES */
+.containerGestionVentas,
+.containerIngresoCapital,
+.containerInformes,
+.containerAdministracion,
+.containerGestionGastos {
     display: flex;
     align-items: center;
     text-align: center;
-    margin-right: 500px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 20px auto;
 }
 
-.containerInformes{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-right: 580px;
-}
-
-.containerAdministracion,.containerGestionGastos{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-left: 500px;
-}
-
-.imgAdministracion,.imgInformes,.imgGestionGastos,.imgGestionVentas,.imgIngresoCapital{
+/* IMÁGENES */
+.imgAdministracion,
+.imgInformes,
+.imgGestionGastos,
+.imgGestionVentas,
+.imgIngresoCapital {
     width: 80px;
     height: auto;
+    object-fit: contain;
 }
-
-
-
-

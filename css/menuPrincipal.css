@@ -97,7 +97,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    margin-right: 800px;
+    margin-right: 900px;
 }
 
 .imgGestionVentas{
@@ -105,3 +105,14 @@ body {
     height: auto;
 }
 
+.containerAdministracion{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 900px;
+}
+
+.imgAdministracion{
+    width: 100px;
+    height: auto;
+}

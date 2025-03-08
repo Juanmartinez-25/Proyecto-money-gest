@@ -93,6 +93,9 @@ body {
     flex-direction: column;
 }
 
+.containerGetionVentas{
+    display: flex;
+}
 .imgGestionVentas{
     width: 100px;
     height: auto;

@@ -89,6 +89,5 @@ body {
 .imgGestionGastos,
 .imgGestionVentas,
 .imgIngresoCapital {
-    width: 1px;
-    height: auto;
+    height: 50%;
 }

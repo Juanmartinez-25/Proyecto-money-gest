@@ -88,9 +88,7 @@ body {
 .containerAdministracion,
 .containerGestionGastos {
     display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+
     flex-wrap: wrap;
     max-width: 80%;
     margin: 20px auto;

@@ -15,23 +15,21 @@
 }
 
 body {
-    background-color: var(--color-primario);
+    background-color: var(--color-secundario);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    flex-direction: column;
 }
 
 .containerHeader {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
     background-color: var(--color-secundario);
     width: 100%;
     padding: 10px 20px;
     display: flex;
-    justify-content: space-between;
 
 }
 
@@ -77,9 +75,49 @@ body {
 
 .containerCasaCerrar{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
-img{
-    
+.contenedorMain {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primario);
+    border-radius: 100px 100px 0 0;
+    margin-top: 57px;
+    width: 100%;
+}	
+
+
+.containerAdministracion,
+.containerGestionGastos{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
 }
+
+.containerGestionVentas,.containerInformes,.containerIngresoCapital{
+    display: flex;
+    align-items: center;
+    margin-left: 900px;
+}
+
+
+.textInformes,.textGestionGastos,.textAdministracion,.textIngresoCapital,.textGestionVentas{
+    font-family: var(--fuente-aleo);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-secundario);
+    text-align: center;
+   
+}
+
+.imgGestionVentas,
+.imgAdministracion,
+.imgInformes,
+.imgGestionGastos,
+.imgIngresoCapital{
+    width: 80px;
+    height: auto;
+    margin: 10px;
+}
+

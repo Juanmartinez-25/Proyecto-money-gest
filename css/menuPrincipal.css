@@ -96,6 +96,7 @@ body {
 .containerGetionVentas{
     display: flex;
     align-items: center;
+    text-align: center;
 }
 .imgGestionVentas{
     width: 100px;

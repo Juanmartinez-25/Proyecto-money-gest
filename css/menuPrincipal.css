@@ -116,3 +116,27 @@ body {
     width: 100px;
     height: auto;
 }
+
+.containerInformes{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 900px;
+}
+
+.imgInformes{
+    width: 100px;
+    height: auto;
+}
+
+.containerGestionGastos{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 900px;
+}
+
+.imgGestionGastos{
+    width: 100px;
+    height: auto;
+}

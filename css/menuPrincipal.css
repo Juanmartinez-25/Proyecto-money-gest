@@ -34,6 +34,7 @@ body {
 
 .containerLogo {
     display: flex;
+    align-items: center;
     margin-top: 30px;
     margin-left: 15%;
 }

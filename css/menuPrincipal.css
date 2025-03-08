@@ -97,8 +97,11 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
+    margin-left: 800px;
 }
+
 .imgGestionVentas{
     width: 100px;
     height: auto;
 }
+

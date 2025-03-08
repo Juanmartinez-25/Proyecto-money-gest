@@ -28,8 +28,10 @@ body {
     flex-wrap: wrap;
     background-color: var(--color-secundario);
     width: 100%;
-    padding: 10px 20px;
+    padding: 20px 100px;
     justify-content: space-between;
+    position: relative; /* Mantiene su posición en el flujo normal */
+    z-index: 10;
 }
 
 .containerLogo {
@@ -68,6 +70,10 @@ body {
     justify-content: center;
     background-color: var(--color-primario);
     border-radius: 100px 100px 0 0;
+    padding: 60px;
+    margin-top: -40px; /* Sube el main para que quede debajo del header */
+    position: relative;
+    z-index: 5;
 }
 
 /* MENÚ PÁGINAS PRINCIPALES */

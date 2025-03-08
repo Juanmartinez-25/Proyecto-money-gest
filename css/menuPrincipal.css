@@ -16,7 +16,7 @@
 
 body {
     height: 100vh;
-    background-color: var(--color-primary);
+    background-color: var(--color-terciario);
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -93,16 +93,19 @@ body {
     flex-direction: column;
 }
 
-.containerGetionVentas,.containerIngresoCapital,.containerInformes{
+
+.containerGetionVentas,.containerIngresoCapital{
     display: flex;
     align-items: center;
     text-align: center;
     margin-right: 500px;
 }
 
-.imgGestionVentas{
-    width: 100px;
-    height: auto;
+.containerInformes{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 550px;
 }
 
 .containerAdministracion,.containerGestionGastos{

@@ -16,11 +16,22 @@
 
 body {
     height: 100vh;
-    background-color: var(--color-terciario);
+    background-color: var(--color-primary);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* HEADER */
+.containerHeader {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--color-secundario);
+    width: 100%;
+    padding: 10px 20px;
+    justify-content: space-between;
 }
 
 .containerLogo {

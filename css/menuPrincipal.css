@@ -92,3 +92,8 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.imgGestionVentas{
+    width: 40px;
+    height: auto;
+}

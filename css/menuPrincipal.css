@@ -97,7 +97,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    margin-right: 600px;
+    margin-right: 500px;
 }
 
 .imgGestionVentas{
@@ -109,7 +109,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    margin-left: 600px;
+    margin-left: 500px;
 }
 
 .imgAdministracion,.imgInformes,.imgGestionGastos,.imgGestionVentas,.imgIngresoCapital{

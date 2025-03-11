@@ -36,6 +36,7 @@ body {
     display: flex;
     margin-left: 43%;
     align-items: center;
+    margin-top: 2%;
 }
 
 .logo {
@@ -80,7 +81,6 @@ body {
 .imgCasaCerrar{
     width: 30px;
     height: auto;
-   left: 200px;
 }
 
 .textCasaCerrar{

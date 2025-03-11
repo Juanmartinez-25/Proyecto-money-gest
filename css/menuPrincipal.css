@@ -100,13 +100,18 @@ body {
 
 .containerGestionVentas,
 .containerInformes,
-.containerIngresoCapital,
-.ainformes{
+.containerIngresoCapital
+{
     display: flex;
     align-items: center;
     margin-left: 10%;
 }
 
+.ainformes{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
 
 .textInformes,.textGestionGastos,.textAdministracion,.textIngresoCapital,.textGestionVentas{
     font-family: var(--fuente-aleo);

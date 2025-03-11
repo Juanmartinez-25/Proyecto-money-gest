@@ -100,7 +100,8 @@ body {
 
 .containerGestionVentas,
 .containerInformes,
-.containerIngresoCapital{
+.containerIngresoCapital,
+.ainformes{
     display: flex;
     align-items: center;
     margin-left: 10%;

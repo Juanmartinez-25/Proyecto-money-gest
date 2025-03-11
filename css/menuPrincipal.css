@@ -83,6 +83,14 @@ body {
     
 }
 
+.textCasaCerrar{
+    font-family: var(--fuente-aleo);
+    font-size: 0.5rem;
+    font-weight: 600;
+    color: var(--color-primario);
+    text-align: center;
+}
+
 .contenedorMain {
     display: flex;
     flex-direction: column;

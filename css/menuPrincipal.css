@@ -80,7 +80,7 @@ body {
 .imgCasaCerrar{
     width: 30px;
     height: auto;
-    align-items: center;
+   left: 20px;
 }
 
 .textCasaCerrar{

@@ -80,6 +80,7 @@ body {
 .imgCasaCerrar{
     width: 30px;
     height: auto;
+    margin-left: 1%;
     
 }
 
@@ -87,7 +88,7 @@ body {
     font-family: var(--fuente-aleo);
     font-size: 0.5rem;
     font-weight: 600;
-    color: var(--color-primario);
+    color: var(--color-secundario);
     text-align: center;
 }
 

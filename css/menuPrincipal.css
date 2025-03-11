@@ -78,6 +78,13 @@ body {
     flex-direction: column;
 }
 
+.imgCasaCerrar{
+    width: 50px;
+    height: auto;
+    margin-left: 90%;
+    margin-top: 20%;
+}
+
 .contenedorMain {
     display: flex;
     flex-direction: column;

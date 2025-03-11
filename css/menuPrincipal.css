@@ -74,12 +74,13 @@ body {
 .containerCasaCerrar{
     display: flex;
     flex-direction: column;
+    margin-left: 90%;
 }
 
 .imgCasaCerrar{
     width: 30px;
     height: auto;
-    margin-left: 90%;
+    
 }
 
 .contenedorMain {

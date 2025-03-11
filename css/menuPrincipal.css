@@ -30,14 +30,11 @@ body {
     width: 100%;
     padding: 10px 20px;
     align-items: center;
-    margin-left: 50%;
-
-
 }
 
 .containerLogo {
     display: flex;
-    
+    margin-left: 50%;
     align-items: center;
     
     

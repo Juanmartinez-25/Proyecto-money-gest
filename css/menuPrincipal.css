@@ -95,8 +95,9 @@ body {
     flex-direction: column;
     background-color: var(--color-primario);
     border-radius: 100px 100px 0 0;
-    padding:6%;
+    padding:4%;
     width: 100%;
+    gap: 20px;
     height: 90%;
 }	
 

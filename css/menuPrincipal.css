@@ -29,8 +29,9 @@ body {
     background-color: var(--color-secundario);
     width: 100%;
     padding: 10px 20px;
-    display: flex;
     align-items: center;
+    margin-left: 50%;
+
 
 }
 
